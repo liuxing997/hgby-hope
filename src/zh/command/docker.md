@@ -48,16 +48,16 @@ categories:
 ### 1.5 保存镜像
 命令格式：docker save 镜像名/镜像ID -o 镜像保存位置与名字，eg：
 ```shell
-    docker save redis -o /root/rrr
+    docker save redis -o /root/rrr.tar
 ```
 
 ```shell
-    docker save 0e403e3816e8 -o /root/ttt
+    docker save 0e403e3816e8 -o /root/ttt.tar
 ```
 ### 1.6 加载保存的镜像
 命令格式：docker load -i 镜像保存文件位置，eg：
 ```shell
-    docker load -i /root/rrr
+    docker load -i /root/rrr.tar
 ```
 ## 二、操作容器
 
