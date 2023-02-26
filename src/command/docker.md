@@ -47,15 +47,15 @@ Command Format:docker rmi -f imageName/imageID，eg：
 ### 1.5 Saving Images 
 Command format: docker save image name/image ID -o save location and name of the image, eg: 
 ```shell 
-    Docker Save Revision -o/root/rr 
+    Docker Save Revision -o/root/rrr.tar 
 ``` 
 ```shell 
-    Docker save 0e403e3816e8-o/root/ttt
+    Docker save 0e403e3816e8-o/root/ttt.tar
 ``` 
 ### 1.6 Loading a Saved Image 
 Command format: docker load -i location of image saving file, eg: 
 ```shell 
-    Docker load -i/root/rrr 
+    Docker load -i/root/rrr.tar 
 ``` 
 ## 二. Handling of containers 
 ### 2.1 Viewing the Container List 
