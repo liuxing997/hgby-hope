@@ -47,7 +47,7 @@ export default hopeTheme({
       ],
       QQ: "http://wpa.qq.com/msgrd?v=3&uin=1747411761&site=qq&menu=yes", // QQ
       Qzone: "https://1747411761.qzone.qq.com/", // QQ空间
-      Wechat: "https://www.liuyingxing.com/hope/assets/wecat.png", // 微信
+      Wechat: "https://www.liuyingxing.com/hope/assets/wechat.png", // 微信
       Weibo: "https://weibo.com/u/5954998310", // 微博
       Gmail: "mailto:liuyingxing.llx@gmail.com", // 谷歌邮箱
       Email: "mailto:liuxing997@foxmail.com", // 邮箱
